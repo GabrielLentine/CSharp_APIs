@@ -1,0 +1,6 @@
+@API.NET9_HostAddress = http://localhost:5029
+
+GET {{API.NET9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
