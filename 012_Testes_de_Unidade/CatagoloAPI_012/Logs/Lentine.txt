@@ -1,0 +1,40 @@
+Information: 14 - Now listening on: https://localhost:7112
+Information: 14 - Now listening on: http://localhost:5088
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\C#\APIs\003_Fundamentos_WebAPI\CatagoloAPI_003
+Information: 0 - ### Executando - OnActionExecuting
+Information: 0 - #################
+Information: 0 - 1:40:55 PM
+Information: 0 - Model State: True
+Information: 0 - #################
+Information: 0 - ====== GET categorias ======
+Information: 20101 - Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`CategoriaImagemUrl`, `c`.`CategoriaNome`
+FROM `Categorias` AS `c`
+Information: 0 - ### Executando - OnActionExecuted
+Information: 0 - #################
+Information: 0 - 1:40:56 PM
+Information: 0 - Status Code: 200
+Information: 0 - #################
+Information: 0 - ====== GET categorias/produtos ======
+Information: 20101 - Executed DbCommand (34ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`CategoriaImagemUrl`, `c`.`CategoriaNome`, `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`ProdutoDescricao`, `p`.`ProdutoEstoque`, `p`.`ProdutoImagemUrl`, `p`.`ProdutoNome`, `p`.`ProdutoPreco`
+FROM `Categorias` AS `c`
+LEFT JOIN `Produtos` AS `p` ON `c`.`CategoriaId` = `p`.`CategoriaId`
+WHERE `c`.`CategoriaId` <= 5
+ORDER BY `c`.`CategoriaId`
+Information: 20101 - Executed DbCommand (20ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT `c`.`CategoriaId`, `c`.`CategoriaImagemUrl`, `c`.`CategoriaNome`
+FROM `Categorias` AS `c`
+WHERE `c`.`CategoriaId` = @__id_0
+LIMIT 1
+Information: 0 - ====== GET categorias/produtos/id1 ======
+Information: 20101 - Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT `p`.`ProdutoId`, `p`.`CategoriaId`, `p`.`DataCadastro`, `p`.`ProdutoDescricao`, `p`.`ProdutoEstoque`, `p`.`ProdutoImagemUrl`, `p`.`ProdutoNome`, `p`.`ProdutoPreco`
+FROM `Produtos` AS `p`
+Information: 14 - Now listening on: https://localhost:7112
+Information: 14 - Now listening on: http://localhost:5088
+Information: 0 - Application started. Press Ctrl+C to shut down.
+Information: 0 - Hosting environment: Development
+Information: 0 - Content root path: D:\C#\APIs\003_Fundamentos_WebAPI\CatagoloAPI_003
