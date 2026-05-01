@@ -1,0 +1,7 @@
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\bin\Debug\net10.0\CoverletSourceRootsMapping_ApiCatalogoxUnitTests
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.csproj.AssemblyReference.cache
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.AssemblyInfoInputs.cache
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.AssemblyInfo.cs
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.csproj.CoreCompileInputs.cache
+E:\C#\APIs\012_Testes_de_Unidade\ApiCatalogoxUnitTests\obj\Debug\net10.0\ApiCatalogoxUnitTests.sourcelink.json
